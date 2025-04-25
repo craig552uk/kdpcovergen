@@ -27,27 +27,27 @@ Generate a template.
 
 ## Options
 
-```--pages PAGES```
+### ```--pages PAGES```
 
 The number of pages in the book. Required.
 
-```--height HEIGHT```
+### ```--height HEIGHT```
 
 Final (trimmed) height of the printed book. Default units are millimetres, accepts inches with the `--inch` option. Required. 
 
-```--width WIDTH```
+### ```--width WIDTH```
 
 Final (trimmed) width of the printed book. Default units are millimetres, accepts inches with the `--inch` option. Required. 
 
-```--hardcover```
-```--paperback```
+### ```--hardcover```
+### ```--paperback```
 
 Build a hard cover or paperback template. One of these is required.
 
-```--paper-white```
-```--paper-cream```
-```--paper-standard```
-```--paper-premium```
+### ```--paper-white```
+### ```--paper-cream```
+### ```--paper-standard```
+### ```--paper-premium```
 
 Specifies the paper used to print the book.
 
@@ -58,20 +58,20 @@ Specifies the paper used to print the book.
 
 One of these is required.
 
-```--mm```
-```--inch```
+### ```--mm```
+### ```--inch```
 
 Specifies the units for `--width` and `--height`. The default is `--mm`.
 
-```--no-barcode```
+### ```--no-barcode```
 
 Exclude barcode from the template. By default this is included.
 
-```--title TITLE```
+### ```--title TITLE```
 
 If provided the title is included on the cover template and in the file name.
 
-```--author AUTHOR```
+### ```--author AUTHOR```
 
 If provided, the author name is included on the cover template.
 
