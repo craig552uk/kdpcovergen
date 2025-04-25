@@ -14,7 +14,7 @@ This is that script.
 
 Copy `kdpcover.py` to somewhere useful on your machine.
 
-```$ cp kdpcover.py ~/bin```
+```$ cp kdpcovergen.py ~/bin```
 
 Install [ReportLab](https://www.reportlab.com).
 
@@ -22,7 +22,7 @@ Install [ReportLab](https://www.reportlab.com).
 
 Generate a template.
 
-```$ python3 kdpcover.py --pages 600 --height 198 --width 128 --paper-white --paperback```
+```$ python3 kdpcovergen.py --pages 600 --height 198 --width 128 --paper-white --paperback```
 
 
 ## Options
@@ -84,7 +84,7 @@ Directory to write template file to. Default is the current directory.
 Show this help message:
 
 ```
-usage: kdpcover.py [-h] --pages PAGES --height HEIGHT --width WIDTH (--hardcover | --paperback) (--paper-white | --paper-cream | --paper-standard | --paper-premium) [--mm | --inch] [--no-barcode] [--title TITLE] [--author AUTHOR] [-d DIRECTORY]
+usage: kdpcovergen.py [-h] --pages PAGES --height HEIGHT --width WIDTH (--hardcover | --paperback) (--paper-white | --paper-cream | --paper-standard | --paper-premium) [--mm | --inch] [--no-barcode] [--title TITLE] [--author AUTHOR] [-d DIRECTORY]
 
 options:
   -h, --help                 Show this help message and exit
